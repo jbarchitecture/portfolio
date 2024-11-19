@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 20pt;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 14pt;
+}
+
+.building-img {
+    position: fixed;
+    scale: .75;
+    transition: ease-out .4s;
+}
+
+.building-img:hover {
+    scale: .85;
+}
+
+.projectTitle {
+    font-size: 30pt;
+    padding-bottom: 5%;
+}
+
+.projectPic {
+    height: 25%;
+    object-fit: cover;
+}
+
+#building1 {
+    top: 30%;
+    left: 10%;
+}
+
+#building2 {
+    top: 35%;
+    left: 60%;
+}
+
+#building3 {
+    top: 70%;
+    left: 40%;
+}
+
+#building4 {
+    top: 50%;
+    left: 80%;
+}
+
+#building5 {
+    top: 50%;
+    left: 20%;
+}
+
+
+#title {
+    display: block;
+    align-content: center;
+}
+
+#main-content {
+    display: block;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+#logo {
+    display: block;
+    object-fit: contain;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    display: block;
+    position: fixed;
+    left: 30%;
+    
+}
+
+
+#canvas {
+    background-image: url("backgroundimg.png");
+    margin-top: 25vh;
+    height: 75vh;
+    width: 100vw;
+    
+}
+
+#container {
+    display: flex;
+    background-color: rgba(15, 23, 42, 0.95);
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 700px;
+    width: 1200px;
+    box-shadow: 0 0 0 2px white;
+    border-radius: 20px;
+    
+}
+
+#scene {
+    height: 95%;
+    width: 48%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#project1 {
+    height: 95%;
+    width: 48%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
