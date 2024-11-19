@@ -5,20 +5,13 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 let project = document.querySelector("#building1");
 let projectSlide = document.getElementById("container");
 let resetButton = document.getElementById("header");
+var container = document.getElementById( 'scene' );
 
 project.onclick = display;
 
 resetButton.onclick = reset;
 
-function display() {
-    projectSlide.style.display = "flex";
-};
 
-function reset() {
-    projectSlide.style.display = "none";
-};
-
-var container = document.getElementById( 'scene' );
 
 
 // a scene
@@ -79,5 +72,13 @@ function animationLoop()
     controls.update( );
 		light.position.copy( camera.position );
     renderer.render( scene, camera );
+};
+
+function display() {
+    projectSlide.style.display = "flex";
+};
+
+function reset() {
+    projectSlide.style.display = "none";
 };
 
